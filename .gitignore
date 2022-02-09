@@ -1,0 +1,6 @@
+data
+save
+wandb
+
+.ipynb_checkpoints
+__pycache__

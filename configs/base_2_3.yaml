@@ -1,0 +1,4 @@
+defaults:
+  - model: base_2_3
+  - processing: default
+  - training: default

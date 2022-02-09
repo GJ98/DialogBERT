@@ -1,0 +1,4 @@
+defaults:
+  - model: small_3_12
+  - processing: default
+  - training: default

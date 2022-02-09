@@ -1,0 +1,4 @@
+batch_size: 2
+uttr_len: 30
+cntxt_len: 5
+p: 0.1

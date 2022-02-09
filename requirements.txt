@@ -1,0 +1,7 @@
+hydra-core==1.1.0
+sentencepiece==0.1.96
+wandb==0.12.9
+tensorflow==2.7.0
+numpy==1.19.5
+tqdm==4.62.3
+#eunjeon==0.4.0

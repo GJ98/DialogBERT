@@ -1,0 +1,4 @@
+defaults:
+  - training: test 
+  - processing: test
+  - model: test

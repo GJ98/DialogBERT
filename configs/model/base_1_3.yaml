@@ -1,0 +1,6 @@
+vocab_size: 32000
+d_h: 768
+head: 12
+d_ff: 3072
+uttr_layer: 3
+cntxt_layer: 1
