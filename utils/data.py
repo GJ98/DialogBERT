@@ -183,7 +183,7 @@ def build_vocab(cntxt_path: str, vocab_path: str, vocab_size: int):
             cntxts = []
     
 
-    # 2-1. eval data
+    # 1-2. eval data
     for i, cntxt in tqdm(enumerate(eval_cntxt), desc=f"building eval morpheme..."):
         cntxts += cntxt["cntxt"]
         if i % 1000 == 0 or i + 1 == len(eval_cntxt):
@@ -321,7 +321,7 @@ if __name__=='__main__':
     build_vocab(cntxt_path, vocab_path, vocab_size)
     """
 
-    """3. preprocess data"""
+    """3. preprocess data
     vocab_path = "../data/emotion/spm.model"
     cntxt_path = "../data/emotion/cntxt_train.json"
     inst_path = {
@@ -330,6 +330,7 @@ if __name__=='__main__':
     }
 
     cntxt_to_inst(vocab_path, cntxt_path, inst_path, uttr_len=30, cntxt_len=5)
+    """
 
     """sampling preprocessor data"""
     inst_path = "../data/emotion/token_train.json"

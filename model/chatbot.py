@@ -23,7 +23,7 @@ class GreedyChatbot(tf.Module):
         """forward propagation
         
         Args:
-            inputs (tf.Tensor(cntxt_len, uttr_len)):
+            inputs (tf.Tensor(cntxt_len, uttr_len)): input
 
         Returns:
             output (tf.Tensor): response
